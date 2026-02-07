@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# virtualenv
+virtual/
+venv/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# sqlite
+database/app.db
+
+# outputs
+outputs/
+EOF
