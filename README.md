@@ -22,7 +22,7 @@ Aplicación clínica desarrollada en **Python + Streamlit** para:
 # 🚀 Instalación desde cero
 
 ## 1️⃣ Clonar el repositorio
-git clone <URL_DEL_REPO>
+git clone https://github.com/thiagomassone/final_pib2.git
 cd final_pib
 
 ## 2️⃣ Crear entorno virtual
