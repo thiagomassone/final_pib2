@@ -23,11 +23,9 @@ Aplicación clínica desarrollada en **Python + Streamlit** para:
 
 ## 1️⃣ Clonar el repositorio
 
-<pre>
 ```bash
 git clone https://github.com/thiagomassone/final_pib2.git
 cd final_pib2
-</pre>
 
 ## 2️⃣ Crear entorno virtual
 
