@@ -64,6 +64,8 @@ eliminar app.db o ejecutar rm database/app.db
 
 # 🗂 Estructura del proyecto
 
-<img width="512" height="768" alt="image" src="https://github.com/user-attachments/assets/1c62dc49-bc77-42e0-b967-33693a4d0924" />
+<img width="512" height="768" alt="image" src="https://github.com/user-attachments/assets/8c5b4a80-233b-46b2-ad85-c56a4ba3561a" />
+
+
 
 
