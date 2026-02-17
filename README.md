@@ -64,42 +64,4 @@ eliminar app.db o ejecutar rm database/app.db
 
 # 🗂 Estructura del proyecto
 
-final_pib/
-│
-├── main.py
-├── bootstrap_admin.py
-│
-├── database/
-│   └── db.py
-│
-├── security/
-│   └── auth.py
-│
-├── app_pages/
-│   ├── login.py
-│   ├── home.py
-│   ├── admin_users.py
-│   ├── patients.py
-│   ├── diagnosis.py
-│   └── history.py
-│
-├── ml_model/
-│   └── modelo_random_forest_final.pkl
-│
-├── image_processing/
-│   ├── preprocess.py
-│   ├── segmentation.py
-│   └── features.py
-│
-├── compression/
-│   ├── huffman_core.py
-│   └── huffman_codec.py
-│
-├── outputs/
-│   └── images/
-│
-├── notebooks/
-│   └── COM_compare.ipynb
-│
-├── requirements.txt
-└── README.md
+![alt text](image.png)
