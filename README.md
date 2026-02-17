@@ -31,21 +31,31 @@ cd final_pib2
 ## 2️⃣ Crear entorno virtual
 
 ### Mac / Linux
+```
 python3 -m venv virtual
 source virtual/bin/activate
+```
 
 ### Windows
+```
 python -m venv virtual
 virtual\Scripts\activate
+```
 
 ## 3️⃣ Instalar dependencias
+```
 pip install -r requirements.txt
+```
 
 ## 4️⃣ Ejecutar aplicación / Inicializar la base de datos
+```
 streamlit run main.py
+```
 
 ## 5️⃣ Crear usuario administrador (solo la primera vez)
+```
 python bootstrap_admin.py
+```
 
 ## Troubleshooting:
 
