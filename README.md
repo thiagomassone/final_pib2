@@ -23,7 +23,7 @@ Aplicación clínica desarrollada en **Python + Streamlit** para:
 
 ## 1️⃣ Clonar el repositorio
 
-```bash
+```
 git clone https://github.com/thiagomassone/final_pib2.git
 cd final_pib2
 ```
