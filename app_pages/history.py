@@ -25,7 +25,7 @@ def _render_study_image(img_path: str) -> None:
     """
     Renderiza la imagen del estudio.
     - Si es .huf: descomprime (Huffman) y muestra en escala de grises.
-    - Si es JPG/PNG: abre con libreria PIL (compatibilidad con estudios previos al cambio de compresión).
+    - Si es JPG/PNG: abre con libreria PIL
     """
     p = Path(img_path) if img_path else None
 
