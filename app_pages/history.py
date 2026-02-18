@@ -36,7 +36,7 @@ def _render_study_image(img_path: str) -> None:
 
     try:
         if p.suffix.lower() == ".huf":
-            img = decompress_huf_file_to_image(p)  # uint8 2D
+            img = decompress_huf_file_to_image(p)
             st.image(
                 img,
                 use_container_width=True,
