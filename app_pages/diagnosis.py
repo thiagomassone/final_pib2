@@ -68,7 +68,7 @@ def render_diagnosis() -> None:
 
     # Verificar que el modelo exista
     if not MODEL_PATH.exists():
-        st.error(f"No encuentro el modelo en: {MODEL_PATH}")
+        st.error(f"No se encuentra el modelo en: {MODEL_PATH}")
         st.stop()
 
     col1, col2, spacer = st.columns([1, 1, 8])

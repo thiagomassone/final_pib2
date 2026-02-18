@@ -83,9 +83,9 @@ def render_admin_users() -> None:
                 msg = str(e)
 
                 if "UNIQUE constraint failed" in msg and "users.username" in msg:
-                    st.error("Ese username ya existe. Elegí otro.")
+                    st.error("Ese username ya existe. Elija otro.")
                 elif "UNIQUE constraint failed" in msg and "persons.dni" in msg:
-                    st.error("Ese DNI ya existe en el sistema. Revisá los datos.")
+                    st.error("Ese DNI ya existe en el sistema. Revise los datos.")
                 else:
                     st.error(f"No se pudo crear el usuario: {e}")
     
